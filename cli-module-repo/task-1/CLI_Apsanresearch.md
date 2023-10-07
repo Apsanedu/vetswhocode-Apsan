@@ -33,9 +33,6 @@ In the 1970s, early versions of Graphical User Interfaces (GUIs) were invented. 
 Today, the majority of users rely on graphical programs to perform tasks. However, there's also an active and vibrant community of CLI program users. Ranger is a popular file manager, Vim and Emacs for text editing, brew, chocolatey, apt, pacman for package management, ffmpeg for editing and converting video files, cmus for music player, tmux for a terminal server, Zathura for an ebook viewer, and many more.
 
 
-## Bash Commands
-
-Bash (Bourne Again Shell) comes with some commands to interact with your computer. You can view and move between directories (cd, ls, mv, cp, rm, mkdir), create, view, and edit text files (touch, cat, less, more), and compile/source config files (for example, source ~/.zshrc).
 
 
 ## Advantages of CLI over GUI

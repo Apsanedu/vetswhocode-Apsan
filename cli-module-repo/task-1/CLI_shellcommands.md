@@ -42,6 +42,8 @@ Dash is a lightweight and fast shell, primarily used in scripting and as the def
 
 ## Bash Commands
 
+Bash (Bourne Again Shell) comes with some commands to interact with your computer. You can view and move between directories (cd, ls, mv, cp, rm, mkdir), create, view, and edit text files (touch, cat, less, more), and compile/source config files (for example, source ~/.zshrc).
+
 ### Text manipulation with sed and awk
 
 - **sed**: Stream editor for filtering and transforming text.
