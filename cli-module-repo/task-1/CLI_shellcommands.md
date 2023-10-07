@@ -70,25 +70,32 @@ Performing various tasks efficiently in Bash involves mastering key tasks and co
 
 ### Set and use an environmental variable
 
+Environmental variables are key-value pairs that are accessible to processes and scripts.
+
 - **`export`**: Sets an environment variable that can be accessed by child processes.
 - **`$VARIABLE_NAME`**: Accesses the value of an environment variable.
 
 ### Utilize the command history effectively
 
+Bash keeps a history of previously executed commands. You can use `history` command to see a list of previous commands. 
+
 - **`history`**: Displays a list of previously executed commands.
 - **`!n`**: Re-executes the nth command from the history.
 
 ### Monitor system processes using commands like ps
+The `ps` command is used to display information about active processes. 
 
-- **`ps`**: Displays information about active processes.
 - **`ps aux`**: Provides a detailed list of all processes.
 
 ### Remotely connect to another machine using ssh
+
+Secure Shell (SSH) is used to remotely connect to another machine. Use the ssh command followed by the username and remote machine's IP address or hostname.
 
 - **`ssh`**: Connects to a remote machine securely using the SSH protocol.
 - Example: `ssh username@remote_ip`
 
 ### Monitor system health with top or htop
+`top` and `htop` commands provide real-time views of system processes and their resource usage. They display information such as CPU, memory usage, and running processes.
 
 - **`top`**: Displays a dynamic real-time view of system processes.
 - **`htop`**: An enhanced version of `top` with a more user-friendly interface and additional features.
