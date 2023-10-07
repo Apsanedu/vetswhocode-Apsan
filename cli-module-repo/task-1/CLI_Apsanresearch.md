@@ -35,8 +35,7 @@ Today, the majority of users rely on graphical programs to perform tasks. Howeve
 
 ## Bash Commands
 
-Bash (Bourne Again Shell) comes with some basic commands to interact with your computer. You can view and move between directories (cd, ls, mv, cp, rm, mkdir), create, view, and edit text files (touch, cat, less, more), and compile/source config files (for example, source ~/.zshrc).
-
+Bash (Bourne Again Shell) comes with some commands to interact with your computer. You can view and move between directories (cd, ls, mv, cp, rm, mkdir), create, view, and edit text files (touch, cat, less, more), and compile/source config files (for example, source ~/.zshrc).
 
 
 ## Advantages of CLI over GUI
