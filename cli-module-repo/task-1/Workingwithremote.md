@@ -80,7 +80,8 @@ To set up a default upstream branch for your local branch, use `git branch --set
 
 ### Fetch vs. Pull
 
-Understanding the difference between `git fetch` and `git pull` is important. Fetch retrieves changes without merging them, while pull fetches and merges changes automatically.
+- When you run `git fetch`, Git contacts the remote repository and fetches any new changes without automatically merging them into your local branch.
+- `git pull` combines two actions: it fetches changes from the remote repository and merges them into your current branch automatically. It is a shortcut for running `git fetch` and then `git merge` in one command.
 
 ## Securing Remote Repositories
 
