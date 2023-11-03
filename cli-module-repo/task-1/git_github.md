@@ -1,6 +1,10 @@
 
 # Git and GitHub: An Extensive Guide
 
+### Version Control
+
+A Version Control records changes to files over a period of time so that you can go back to specific versions.
+
 ## Git - Version Control System
 
 Git is a distributed version control system that allows users to track changes in files and collaborate on projects. Developed by Linus Torvalds in 2005, it has become an essential tool for software development.
@@ -106,3 +110,6 @@ Git Flow is a branching model and a set of conventions for using Git effectively
 7. If needed, create a hotfix branch from `master` for critical fixes.
 
 
+$$ Works Cited:
+
+Chacon, S., & Straub, B. (2014). *Pro Git: Everything you need to know about Git*. Apress.
