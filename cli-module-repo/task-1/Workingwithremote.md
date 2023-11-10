@@ -93,6 +93,12 @@ To enhance security, use SSH keys for authentication when interacting with remot
 
 Configure access control and permissions for your repositories to ensure that only authorized individuals can make changes or access sensitive information.
 
+## Git in IDEs and Plugins
+
+Many developers nowadays forego entering commands directly into the terminal. Modern Integrated Development Environments (IDEs) such as VS Code, various IntelliJ IDEs, NOVA, and others come equipped with built-in features that allow users to execute Git commands through a graphical user interface (GUI). Additionally, there's a substantial market for GitHub plugins catering to this trend.
+
+### GitLens - Git Supercharged, A VSCODE plugin
+ GitLens is a popular Visual Studio Code (VS Code) extension that enhances Git integration within the IDE. It allows you to view detailed information about a commit, including changes made, commit messages, and authorship details. It provides annotations within the code to show who last modified a specific line, making it easy to identify authors and their contributions.
 ## Conclusion
 
 Understanding how to set up, manage, and secure them is crucial for successful Git workflows. Whether you're working on open-source projects, collaborating with a team, or managing your personal repositories, these practices will help you make the most of remote repositories on GitHub.
