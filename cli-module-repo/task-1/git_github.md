@@ -18,15 +18,19 @@ Git, Mercurial, Bazaar, Darcs
 ### **Key Concepts**
 
 - **Repository (Repo)**: A folder that contains all project files, including version history.
-- **Commit**: A snapshot of changes made to files at a specific point in time.
-- **Branch**: A parallel line of development within a repository.
+- **Fork**: Creating a personal copy of a repository to make changes while keeping a link to the original (it's called the upstream repo)
 - **Clone**: Copying a repository from a remote server to a local machine.
+    ` git clone <your-fork-url.git> `
+- **Branch**: "A git repo is just a big tree 🌳. You might have hundreds of people working on the same project and branches ensure that collaboration can happen without complete chaos. Changes on your branch are isolated from the work everybody else is doing." (Delaney)
+    ` git checkout -b my-cool-thing `
+- **Commit**: A snapshot of changes made to files at a specific point in time.
+` git add .
+git commit -m "Easy work!" ` 
 - **Pull**: Fetching changes from a remote repository to a local one.
 - **Push**: Uploading local changes to a remote repository.
 - **Merge**: Combining changes from one branch into another.
 - **Conflict**: Occurs when two branches have made changes to the same part of a file.
-- **Pull Request (PR)**: A request to merge changes from one branch into another, often used in collaboration.
-- **Fork**: Creating a personal copy of a repository to make changes without affecting the original.
+- **Pull Request (PR)**: Often used in collaboration, it is a request to merge changes from one branch into another. It is identical to the command "git merge".
 
 ## Git History
 
@@ -58,6 +62,7 @@ Git was created by Linus Torvalds in 2005 to support the development of the Linu
 - `git branch`: Lists all local branches.
 - `git checkout -b <branch>`: Creates and switches to a new branch.
 - `git merge <branch>`: Merges changes from one branch into the current branch.
+- `git merge <branch> --squash`: Combines all the commits into one when merging one branch into another.
 - `git log`: Displays a log of all commits.
 
 ### **Remote Repository**
@@ -113,3 +118,5 @@ Git Flow is a branching model and a set of conventions for using Git effectively
 $$ Works Cited:
 
 Chacon, S., & Straub, B. (2014). *Pro Git: Everything you need to know about Git*. Apress.
+Delaney, J. How to Participate on Github. 17 Jan. 2019, https://fireship.io/snippets/git-how-to-participate-on-github/.
+GitHub. GitHub Features: The Right Tools for the Job. https://github.com/features.
